@@ -1,5 +1,10 @@
 package com.wbn.sk.redis;
 
+/**
+ * user的key 前缀实现类
+ * @author WuBN
+ *
+ */
 public class UserKey extends BasePerfix{
 
 	private UserKey(String perfix) {

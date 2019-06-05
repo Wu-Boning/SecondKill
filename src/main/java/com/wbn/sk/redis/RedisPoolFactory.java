@@ -7,6 +7,11 @@ import org.springframework.stereotype.Repository;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
+/**
+ * Redis连接池
+ * @author WuBN
+ *
+ */
 @Repository
 public class RedisPoolFactory {
 	

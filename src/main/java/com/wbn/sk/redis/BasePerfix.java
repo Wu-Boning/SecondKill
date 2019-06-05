@@ -1,5 +1,10 @@
 package com.wbn.sk.redis;
 
+/**
+ *	 前缀基类
+ * @author WuBN
+ *
+ */
 public abstract class BasePerfix implements KeyPrefix{
 	
 	private int expireSeconds;

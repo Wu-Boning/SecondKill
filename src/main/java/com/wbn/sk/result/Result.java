@@ -1,5 +1,11 @@
 package com.wbn.sk.result;
 
+/**
+ * 	服务器返回结果对象
+ * @author WuBN
+ *
+ * @param <T> 返回到客户端的数据
+ */
 public class Result<T> {
 	
 	private int code;

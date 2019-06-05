@@ -1,10 +1,16 @@
 package com.wbn.sk.redis;
 
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
+/**
+ * Redis配置参数
+ * @author WuBN
+ *
+ */
 @Component
 @EnableAutoConfiguration
 public class RedisConfig {
