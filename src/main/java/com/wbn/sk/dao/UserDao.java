@@ -9,7 +9,7 @@ import com.wbn.sk.domain.User;
 @Mapper
 public interface UserDao {
 	
-	@Select("select * from secondkill_user where id = #{id}")
+	@Select("select * from user where id = #{id}")
 	public User getByID(@Param("id")long id);
 
 }

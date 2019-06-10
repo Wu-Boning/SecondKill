@@ -8,6 +8,7 @@ import com.wbn.sk.validator.IsMoblie;
 
 /**
  * 	用户登录数据对象
+ * 	使用效验器
  * @author WuBN
  *
  */

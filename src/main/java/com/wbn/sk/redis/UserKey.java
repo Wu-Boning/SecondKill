@@ -7,7 +7,7 @@ package com.wbn.sk.redis;
  */
 public class UserKey extends BasePerfix{
 	
-	public static final int TOKEN_EXPIRE = 3600*24*2; 
+	public static final int TOKEN_EXPIRE = 600; 
 	
 
 	private UserKey(int expireSeconds, String perfix) {

@@ -35,6 +35,7 @@ public class GlobalExceptionHandler {
 			return Result.error(ex.getCodeMsg());
 		}
 		else {
+			e.printStackTrace();
 			return Result.error(CodeMsg.SERVER_ERROR);
 		}
 	}
